@@ -1,0 +1,25 @@
+<!-- 
+    Crea un formulario que recoja dos números y una posible operación (suma,
+    resta y multiplica), y que en función de la operación elegida devuelva el
+    resultado de la operación.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="operacion.php" method="get">
+            Número 1: <input name="num1" type="number">
+            Número 2: <input name="num2" type="number">
+            Operación:
+            <select name="op">
+                <option value="suma">Sumar</option>
+                <option value="resta">Restar</option>
+                <option value="multiplica">Multiplicar</option>
+                <input type="submit" value="Enviar">
+            </select>
+        </form>
+    </body>
+</html>
