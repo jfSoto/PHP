@@ -1,0 +1,25 @@
+<!-- 
+    Crea una tabla en una base de datos dws llamada alumnos con 3 columnas: idAlumno, nombre y nota. 
+    Crea una aplicación web con un formulario que permita mostrar los datos del alumno que se desee
+     escribiendo su identificador. Si se escribe el 0 mostrará los datos de todos los alumnos.
+
+     SENTENCIA SQL:
+     CREATE TABLE `dws`.`alumnos` ( `idAlumno` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(20) NOT NULL , 
+     `nota` INT NOT NULL , PRIMARY KEY (`idAlumno`)) ENGINE = InnoDB;
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <form action="conexion.php" method="POST">
+            <input type="text" name="id">
+            <input type="submit">
+        </form>
+    </body>
+</html>
