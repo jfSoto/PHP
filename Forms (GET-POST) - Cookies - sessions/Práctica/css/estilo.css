@@ -1,0 +1,31 @@
+body {
+    background-image: url("../imagenes/carritos.jpg");}
+
+table {
+    border: 2px solid black;}
+
+tr, td {
+    text-align: center;
+    border: 1px solid black;}
+
+td.celeste {
+    font-family: 'Franklin Gothic Medium';
+    color: #FFFFFF;
+    background-color: #328aa4;}
+
+td.verde {
+    font-family: 'Lucida Sans';
+    color: #000000;
+    background-color: #bce774;}
+    
+td.amarillo {
+    font-family: 'Lucida Sans';
+    color: #000000;
+    background-color: #F0E68C}
+
+span {
+    border-image: initial;
+    border: 0px;
+    background-color: #F08080;
+    color: #000000;
+    font-size: 20px;}
