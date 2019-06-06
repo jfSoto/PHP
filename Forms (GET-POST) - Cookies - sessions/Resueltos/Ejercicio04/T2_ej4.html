@@ -1,0 +1,24 @@
+<!-- 
+    Crea un formulario que solicite el nombre y permita seleccionar un idioma
+    (Español, Inglés y Francés). En función del idioma seleccionado, devolverá un
+    saludo personalizado en dicho idioma (Hi Ana!). 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="saludo.php" method="get">
+        Nombre: <input name="nombre" type="text">
+        Idioma:
+        <select name="idioma">
+            <option value="es">Español</option>
+            <option value="en">Inglés</option>
+            <option value="fr">Francés</option>
+            <input type="submit" value="Enviar">
+        </select>
+        </form>   
+    </body>
+</html>
