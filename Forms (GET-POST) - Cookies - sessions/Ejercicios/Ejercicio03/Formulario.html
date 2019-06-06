@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>
+    </head>
+    <body>
+        <h3>Introduce tus notas:</h3>
+        <form action="Bienvenida.php" method="POST">
+            <label for="numero1">Primer número:</label>
+            <input id="numero1" name="numero1" type="number" /><br/>
+            <label for="numero2">Segundo número:</label>
+            <input id="numero2" name="numero2" type="number" /><br/>
+            <!--
+            <label for="operacion">Operación deseada:</label>
+            <input id="operacion" name="operacion" type="text" /><br/>
+            -->
+            Operación deseada: 
+            <select name="operacion">
+                <option value="suma">+</option>
+                <option value="resta">-</option>
+                <option value="multiplicacion">*</option>
+                <option value="division">/</option>
+            </select><br/>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
