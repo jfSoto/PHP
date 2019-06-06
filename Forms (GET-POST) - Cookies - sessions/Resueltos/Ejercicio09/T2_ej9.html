@@ -1,0 +1,34 @@
+<!-- 
+    Confeccionar una página que muestre un contrato con puntos suspensivos
+    donde el usuario debe ingresar un texto. La página que procesa el formulario
+    debe mostrar el contrato con las modificaciones que hizo el usuario:
+    Ejemplo de contrato:
+
+    En la ciudad de [……], se acuerda entre la Empresa [……] representada
+    por el Sr. [……] en su carácter de Apoderado, con domicilio en la
+    calle [……] y el Sr. [……], futuro empleado con domicilio en [……],
+    celebrar el presente contrato a Plazo Fijo, de acuerdo a la normativa
+    vigente de los artículos 90, 92, 93, 94, 95 y concordantes de la Ley
+    de Contrato de Trabajo No. 20744. 
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <form action="contrato.php" method="post">
+            En la ciudad de <input name="ciudad" type="text">, se acuerda
+            entre la Empresa <input name="empresa" type="text"> representada por
+            el Sr. <input name="apoderado" type="text"> en su carácter de
+            Apoderado, con domicilio en la calle <input name="calle" type="text">
+            y el Sr. <input name="empleado" type="text">, futuro empleado con
+            domicilio en <input name="domicilio" type="text">, celebrar el
+            presente contrato a Plazo Fijo, de acuerdo a la normativa vigente de
+            los artículos 90, 92, 93, 94, 95 y concordantes de la Ley de Contrato
+            de Trabajo No. 20744.
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
